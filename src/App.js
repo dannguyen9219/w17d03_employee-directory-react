@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom';
 // import EmployeeListItem from './components/EmployeeListItem';
 // import Header from './components/Header';
 import Homepage from './pages/Homepage';
-// import Image from './components/Image';
 // import SearchBar from './components/SearchBar';
 
 

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import React from 'react';
 // import employeeArr from '../data';
 
 export default function EmployeeListItem(props) {
@@ -61,17 +62,17 @@ export default function EmployeeListItem(props) {
     
     return (
         <div className="employee-list-item">
-            <div className="image">
-
-            </div>
-            <div className="name-title">
+            <div>
                 {employeeArr.map((employee) => {
-                    const { name, jobTitle } = employee;
+                    const { img, name, jobTitle } = employee;
 
                     return (
                         <Link to={`/${name}`}>
-                            <h4>{name}</h4>
-                            <p>{jobTitle}</p>
+                            <img src={img} className="image" alt={name} />
+                            <div className="name-title">
+                                <h4>{name}</h4>
+                                <p>{jobTitle}</p>
+                            </div>
                         </Link>
                     )
                 })};
