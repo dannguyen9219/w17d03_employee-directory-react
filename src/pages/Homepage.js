@@ -11,6 +11,7 @@ export default function Homepage(props) {
         <div>
             <Header />
             <SearchBar />
+            <EmployeeListItem />
         </div>
     );
 };
