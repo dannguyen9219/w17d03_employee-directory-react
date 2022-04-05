@@ -1,7 +1,7 @@
-import EmployeeListItem from "./EmployeeListItem";
+// import EmployeeListItem from "./EmployeeListItem";
 
 export default function EmployeeList(props) {
     return (
-        <EmployeeListItem />
+        <div className="employeeList">{props.children}</div>
     );
 };
