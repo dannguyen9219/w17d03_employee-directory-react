@@ -28,10 +28,42 @@ h4, p {
     margin: 0;
 }
 
+.home-page {
+    border: solid orange 2px;
+}
+
+.employeeList {
+    border: solid purple 2px;
+}
+
+.employee-card {
+    border: solid red 2px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+
+.employee-show-card {
+    border: 1px solid brown;
+}
+
+.employeeName {
+    padding: 5px;
+}
+
+.employeeTitle {
+    padding: 5px;
+}
+
 .image {
     height: 50px;
     width: 50px;
     border-radius: 50%;
     border: 1px solid;
     align-items: left;
+}
+
+.image-page {
+    height: 200px;
+    width: 200px;
 }

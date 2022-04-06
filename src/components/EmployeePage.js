@@ -5,10 +5,10 @@ export default function EmployeePage(props) {
     return (
         <>
             <div>
-                <Header />
                 <div>
-                    <div>
-                        <div><img src={props.info.img} alt={props.info.name} /></div>
+                    <div className="employee-show-card">
+                        <h3>Employee</h3>
+                        <div><img src={props.info.img} className="image-page"alt={props.info.name} /></div>
                         <div>
                             <h3>NAME: {props.info.name}</h3>
                             <h3>TITLE: {props.info.jobTitle}</h3>
